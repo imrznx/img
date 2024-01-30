@@ -1,2 +1,5 @@
 title: MoviesFLIX
 baseurl: ""
+plugins:
+  - rubyzip
+  - zip
