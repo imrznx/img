@@ -11,7 +11,9 @@ def unzip_file(zip_file, destination)
   end
 end
 
-zip_file = 'img.zip'
+zip_files = ['img-1.zip', 'img-2.zip']
 destination = 'images'
 
-unzip_file(zip_file, destination)
+zip_files.each do |zip_file|
+  unzip_file(zip_file, destination)
+end
